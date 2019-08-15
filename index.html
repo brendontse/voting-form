@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+    <title>Voting</title>
+  </head>
+  <body>
+
+    <div class="over-18">
+     <form id='candidates'>
+       <input type="checkbox" name="candidate" value="roland">Roland Aranjo (Green Party)<br>
+       <input type="checkbox" name="candidate" value="robert">Robert Ardini (Republican)<br>
+       <input type="checkbox" name="candidate" value="kenneth">Kenneth Armstrong (Libertarian)<br>
+       <input type="checkbox" name="candidate" value="michael" checked>Michael Arth (Democratic)<br>
+       <button type="submit" name="button">Vote</button>
+     </form>
+     <div class="results">
+       <p>You voted for <span id=candidate></span></p>
+     </div>
+
+
+
+
+    </div>
+    <div class="under-18">
+      <div class="container">
+        <h2>I'm sorry, you're not of age to vote yet. Check these links to learn more about voting in your area so you'll be prepared when you are of age.</h2>
+        <a href="https://www.eac.gov/voters/register-and-vote-in-your-state/">Registration Information</a><br>
+        <a href="https://www.archives.gov/federal-register/electoral-college/about.html">About the electoral college</a>
+      </div>
+    </div>
+  </body>
+</html>
